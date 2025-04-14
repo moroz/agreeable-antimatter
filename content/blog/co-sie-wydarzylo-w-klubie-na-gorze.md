@@ -1,7 +1,7 @@
 ---
 title: "188,5. Co się wydarzyło w Klubie Na Górze?"
 author: "Karol Moroz <karol@moroz.dev>"
-date: "2015-03-28 17:22:51"
+date: 2015-03-28 17:22:51
 language: "pl"
 slug: "co-sie-wydarzylo-w-klubie-na-gorze"
 ---

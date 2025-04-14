@@ -1,7 +1,7 @@
 ---
 title: "188. Język koreański a erasmusowy tryb życia"
 author: "Karol Moroz <karol@moroz.dev>"
-date: "2015-03-26 13:54:45"
+date: 2015-03-26 13:54:45
 language: "pl"
 slug: "jezyk-koreanski-a-erasmusowy-tryb-zycia"
 ---
