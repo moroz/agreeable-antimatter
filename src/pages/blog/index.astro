@@ -1,0 +1,18 @@
+---
+import { getCollection } from "astro:content";
+import { paginatePosts } from "../../content.ts";
+import Layout from "../../layouts/Layout.astro";
+const page = await paginatePosts(1);
+---
+
+<Layout>
+  <div>
+    {
+      page.map((row) => (
+        <p>
+          <a href={`/blog/${row.data.slug}`}>{row.data.title}</a>
+        </p>
+      ))
+    }
+  </div>
+</Layout>

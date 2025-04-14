@@ -3,4 +3,27 @@
 @theme {
   --header-height: 5rem;
   --footer-height: 8rem;
+  --container-width: 50rem;
+}
+
+.container {
+  @apply mx-auto w-[var(--container-width)];
+}
+
+a:not([class]) {
+  @apply underline;
+}
+
+:is(.content) {
+  p {
+    @apply my-4;
+  }
+
+  h2 {
+    @apply text-xl font-bold;
+  }
+
+  :not(pre) > code {
+    @apply text-red-300 dark:bg-gray-700;
+  }
 }

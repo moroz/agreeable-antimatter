@@ -1,4 +1,5 @@
 ---
+import "../styles/global.css";
 import Header from "../components/Header.svelte";
 import Footer from "../components/Footer.svelte";
 ---
@@ -13,10 +14,12 @@ import Footer from "../components/Footer.svelte";
     <title>Astro Basics</title>
   </head>
   <body
-    class="grid h-screen grid-rows-[auto_1fr_auto] text-black dark:bg-gray-800 dark:text-white"
+    class="flex min-h-screen w-full flex-col overflow-x-hidden pt-[var()] text-black dark:bg-gray-900 dark:text-white"
   >
     <Header />
-    <slot />
+    <main class="container flex-1 pt-[calc(var(--header-height)_+_2rem)]">
+      <slot />
+    </main>
     <Footer />
   </body>
 </html>
